@@ -1,0 +1,27 @@
+{
+	"name": "KKonstantinova",
+	"version": "1.0.0",
+	"description": "Катя Константинова",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"node-sass": "^4",
+		"@pingy/cli": "^0.10.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pingy dev",
+		"export": "pingy export"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/katyakaterina/KKonstantinova.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/katyakaterina/KKonstantinova/issues"
+	},
+	"homepage": "https://github.com/katyakaterina/KKonstantinova#readme"
+}
