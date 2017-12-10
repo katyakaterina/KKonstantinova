@@ -1,0 +1,38 @@
+.promo{
+   
+}
+.promo__item {
+    background: url(img/sprite-nav.png);
+
+    &--yellow {
+        background-position: -152px -121px ;
+        width: 44px;
+        height: 65px;
+    }
+
+    &--blue {
+        background-position: -223px -125px ;
+        width: 75px;
+        height: 61px;
+    }
+
+    &--purple {
+        background-position: -306px -122px ;
+        width: 78px;
+        height: 62px;
+    }
+
+    &--green {
+        background-position: -416px -120px ;
+        width: 59px;
+        height: 72px;
+    }
+
+    &--orange {
+        background-position: -506px -123px ;
+        width: 78px;
+        height: 63px;
+    }
+
+
+ }
