@@ -1,0 +1,38 @@
+{
+  "name": "kkonstantinova",
+  "version": "0.0.1",
+  "description": "My base project",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^7.2.2",
+    "del": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "posthtml-include": "^1.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-posthtml": "^3.0.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-svgstore": "^6.1.0",
+    "gulp-webp": "^2.3.0",
+    "run-sequence": "^2.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katyakaterina/KKonstantinova.git"
+  },
+  "author": "Kate Konstantinova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katyakaterina/KKonstantinova/issues"
+  },
+  "homepage": "https://github.com/katyakaterina/KKonstantinova#readme"
+}
