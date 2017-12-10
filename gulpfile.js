@@ -6,6 +6,7 @@ var del = require('del');
 var rename = require('gulp-rename');
 var posthtml = require('gulp-posthtml');
 var include = require('posthtml-include');
+var browserSync = require('browser-sync');
 var server = require("browser-sync").create();
 var csso = require('gulp-csso');
 var imagemin = require('gulp-imagemin');
@@ -23,18 +24,18 @@ gulp.task('build', function(done){
 });
 
 gulp.task('sass', function(){
-  return gulp.src('styles/body.scss')
+  return gulp.src('style.scss')
    .pipe(sass())
-   .pipe(gulp.dest('styles/css'))
+   .pipe(gulp.dest('style.css'))
    .pipe(browserSync.stream());
 });
 
 gulp.task('sass:watch', function(){
-    gulp.watch('./sass/**/*.scss', ['sass']);
+    gulp.watch('./sass/style.scss', ['sass']);
 });
 
 gulp.task('style', function(){
-    gulp.src('sass/style.scss')
+    gulp.src('sass/style/.scss')
     .pipe(plumber())
     .pipe(sass())
     .pipe(postcss([
