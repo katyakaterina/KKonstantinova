@@ -8,36 +8,40 @@
 .menu-top {
     display: flex;
     
-
-   
-
-
      &__link--logo {
          border: 1px solid $pink;
          background: $pink;
          color: $white;
          padding: 9px 55px;
-         text-transform: uppercase; }
+         text-transform: uppercase; 
+    }
 
       &__list {
         display: flex;
-
-     }
+        width: 1200px;
+        
+    }
        
  }
+
  .menu-top__element {
     list-style: none;
-    background: url(img/sprite-nav.png);
-
-    &--search {
-        background-position: -16px -15px ;
-        width: 17px;
-        height: 17px;}
-
+    flex-grow: 1;
+    align-items: center;
+    background-image: url(img/sprite-nav.png);
+  
+    
     &--bookmarks {
         background-position: -267px -17px ;
         width: 14px;
         height: 16px;
-    }    
+    }  
+    
+    &--basket {
+        background-position: -167px -18px ;
+        width: 15px;
+        height: 15px;
+    }
+
     
  }

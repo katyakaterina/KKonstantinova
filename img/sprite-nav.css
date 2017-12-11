@@ -1,0 +1,178 @@
+.search-icon, .search-icon2, .search-icon3, .basket-icon, .basket-icon2, .bookmark-icon, .bookmark-icon2, .home-icon, .login-icon, .login-icon2, .logout-icon, .logout-icon2, .phone-icon, .user-icon-blue, .user-icon, .up, .up2, .up3, .down, .down2, .down3, .vk, .fc, .insta, .item1, .item2, .item3, .item4, .item5{
+	background: url(sprite-nav.png) no-repeat;
+}
+
+.search-icon{
+	background-position: -16px -15px ;
+	width: 17px;
+	height: 17px;
+}
+
+.search-icon2{
+	background-position: -66px -15px ;
+	width: 17px;
+	height: 17px;
+}
+
+.search-icon3{
+	background-position: -117px -16px ;
+	width: 17px;
+	height: 17px;
+}
+
+.basket-icon{
+	background-position: -167px -18px ;
+	width: 15px;
+	height: 15px;
+}
+
+.basket-icon2{
+	background-position: -218px -17px ;
+	width: 15px;
+	height: 15px;
+}
+
+.bookmark-icon{
+	background-position: -267px -17px ;
+	width: 14px;
+	height: 16px;
+}
+
+.bookmark-icon2{
+	background-position: -318px -17px ;
+	width: 14px;
+	height: 16px;
+}
+
+.home-icon{
+	background-position: -368px -19px ;
+	width: 14px;
+	height: 12px;
+}
+
+.login-icon{
+	background-position: -416px -17px ;
+	width: 20px;
+	height: 17px;
+}
+
+.login-icon2{
+	background-position: -464px -17px ;
+	width: 20px;
+	height: 17px;
+}
+
+.logout-icon{
+	background-position: -515px -17px ;
+	width: 20px;
+	height: 17px;
+}
+
+.logout-icon2{
+	background-position: -562px -17px ;
+	width: 21px;
+	height: 17px;
+}
+
+.phone-icon{
+	background-position: -614px -15px ;
+	width: 19px;
+	height: 19px;
+}
+
+.user-icon-blue{
+	background-position: -665px -14px ;
+	width: 20px;
+	height: 18px;
+}
+
+.user-icon{
+	background-position: -713px -14px ;
+	width: 20px;
+	height: 18px;
+}
+
+.up{
+	background-position: -21px -69px ;
+	width: 11px;
+	height: 10px;
+}
+
+.up2{
+	background-position: -66px -69px ;
+	width: 11px;
+	height: 10px;
+}
+
+.up3{
+	background-position: -118px -69px ;
+	width: 11px;
+	height: 10px;
+}
+
+.down{
+	background-position: -168px -70px ;
+	width: 11px;
+	height: 10px;
+}
+
+.down2{
+	background-position: -218px -69px ;
+	width: 11px;
+	height: 10px;
+}
+
+.down3{
+	background-position: -270px -69px ;
+	width: 11px;
+	height: 10px;
+}
+
+.vk{
+	background-position: -312px -66px ;
+	width: 26px;
+	height: 15px;
+}
+
+.fc{
+	background-position: -369px -63px ;
+	width: 12px;
+	height: 22px;
+}
+
+.insta{
+	background-position: -414px -64px ;
+	width: 21px;
+	height: 21px;
+}
+
+.item1{
+	background-position: -152px -121px ;
+	width: 44px;
+	height: 65px;
+}
+
+.item2{
+	background-position: -223px -125px ;
+	width: 75px;
+	height: 61px;
+}
+
+.item3{
+	background-position: -306px -122px ;
+	width: 78px;
+	height: 62px;
+}
+
+.item4{
+	background-position: -416px -120px ;
+	width: 59px;
+	height: 72px;
+}
+
+.item5{
+	background-position: -506px -123px ;
+	width: 78px;
+	height: 63px;
+}
+
