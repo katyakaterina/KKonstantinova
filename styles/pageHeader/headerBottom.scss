@@ -3,11 +3,10 @@
     &__list {
         display: flex;
     }
-
-        &__element {
-            flex-grow: 1;
-            list-style: none;
-        
-    }
+    &__element {
+        flex-grow: 1;
+        list-style: none;
+    
+}
 
 }
