@@ -3,28 +3,41 @@
     height: 320px;
     margin: 0 auto;
     background-color: $lightBlue;
+    
 }
 
 .menu-top {
     display: flex;
+    align-items: center;
+    background-color: $navy;
+    height: 42px;
     
-     &__link--logo {
-         border: 1px solid $pink;
-         background: $pink;
-         color: $white;
-         padding: 9px 55px;
-         text-transform: uppercase; 
+    &__logo {
+        margin-left: 130px;
+    }
+    
+    &__link{
+        text-decoration: none;
+        color: $white;
+    }
+    
+    &__link--logo {
+        border: 1px solid $pink;
+        background: $pink;
+        color: $white;
+        padding: 9px 55px;
+        text-transform: uppercase; 
+         
     }
 
-      &__list {
+    &__list {
         display: flex;
-        width: 1200px;
-        
+        width: 900px;
     }
        
  }
 
- .menu-top__element {
+.menu-top__element {
     list-style: none;
     flex-grow: 1;
     align-items: center;

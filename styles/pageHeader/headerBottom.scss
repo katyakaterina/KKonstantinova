@@ -1,8 +1,21 @@
 .menu-bottom {
+    width: 940px;
+    background-color: $navy;
+    height: 55px;
     
+    
+    &__link {
+        text-decoration: none;
+        color: $white;
+    }
+
     &__list {
         display: flex;
+        align-items: center;
+
     }
+    
+    
     &__element {
         flex-grow: 1;
         list-style: none;
