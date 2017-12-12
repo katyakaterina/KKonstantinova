@@ -1,0 +1,15 @@
+.about-us {
+    
+    &__caption {
+        @include titleLg;
+        color: $black;
+    }
+}
+    
+.address-info {
+    
+    &__caption {
+        @include titleLg;
+        color: $black;
+    }
+}

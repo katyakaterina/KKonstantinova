@@ -2,11 +2,11 @@
     width: 940px;
     background-color: $navy;
     height: 55px;
+    margin-left: 130px;
     
     
     &__link {
-        text-decoration: none;
-        color: $white;
+        @include headerLink;
     }
 
     &__list {

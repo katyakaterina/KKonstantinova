@@ -1,8 +1,8 @@
-.promo{
+.promo {
    
-}
-.promo__item {
-    background: url(img/sprite-nav.png);
+
+    &__item {
+         background: url(img/sprite-nav.png);
 
     &--yellow {
         background-position: -152px -121px ;
@@ -35,4 +35,9 @@
     }
 
 
- }
+   }
+
+   &__title {
+       @include titleXl;
+   }
+}

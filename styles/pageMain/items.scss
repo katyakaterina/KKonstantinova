@@ -1,0 +1,28 @@
+
+.items {
+
+    &__button--cost {
+        @include btnPrice;
+    }
+
+    &__button--buy {
+        @include btnToBuy;
+    }
+
+    &__button--marks {
+        @include btnInMarks;
+    }
+
+}
+
+.items-titles {
+
+    &__caption {
+       @include titleLg; 
+    }
+    
+    &__link {
+        @include linkPink;
+        padding: 9px 53px;
+    }
+}

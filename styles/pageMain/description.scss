@@ -1,0 +1,17 @@
+.desc {
+    
+    &__caption {
+        @include titleLg;
+        color: $black;
+    }
+}
+    
+.slider {
+    
+    &__caption {
+        @include titleXl;
+        font-weight: 400;
+        color: $navy;
+    }
+    
+}

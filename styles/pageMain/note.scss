@@ -1,0 +1,7 @@
+.info-catalog {
+
+    &__caption {
+        @include titleLg;
+        color: $black;
+    }
+}
